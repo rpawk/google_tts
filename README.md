@@ -2,6 +2,7 @@
 
 Python TTS software using Google TextToSpeech
 [API](https://cloud.google.com/text-to-speech).
+
 You need to set `GOOGLE_APPLICATION_CREDENTIALS` environment variable.
 
 ## Examples
@@ -26,6 +27,9 @@ gender = 'female'
 voice = Voice(language_code, gender=gender)
 voice.tts(text, 'test.mp3')
 ```
+
+## Supported voices and languages
+[List](https://cloud.google.com/text-to-speech/docs/voices)
 
 ## Dependency
 - google-cloud-texttospeech
